@@ -7,7 +7,7 @@ export function Home() {
     <div>
       <h1>app 01 - home</h1>
 
-      <button type='button' onClick={() => navigate('/test')}>go to test</button>
+      <button type='button' onClick={() => navigate('test')}>go to test</button>
     </div>
   )
 }
